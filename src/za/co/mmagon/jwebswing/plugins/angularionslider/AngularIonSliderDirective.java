@@ -11,20 +11,20 @@ import za.co.mmagon.jwebswing.base.angular.directives.AngularDirectiveBase;
  */
 class AngularIonSliderDirective extends AngularDirectiveBase
 {
-
-    private static final long serialVersionUID = 1L;
-
-    /*
-     * Constructs a new AngularIonSliderDirective
-     */
-    public AngularIonSliderDirective()
-    {
-        super("AngularIonSlider");
-    }
-
-    @Override
-    public String renderFunction()
-    {
-        return FileTemplates.getFileTemplate(AngularIonSliderDirective.class, "ionSlider.min").toString();
-    }
+	
+	private static final long serialVersionUID = 1L;
+	
+	/*
+	 * Constructs a new AngularIonSliderDirective
+	 */
+	public AngularIonSliderDirective()
+	{
+		super("AngularIonSlider");
+	}
+	
+	@Override
+	public String renderFunction()
+	{
+		return FileTemplates.getFileTemplate(AngularIonSliderDirective.class, "ionSlider.min").toString();
+	}
 }
