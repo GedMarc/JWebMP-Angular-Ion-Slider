@@ -32,9 +32,9 @@ import za.co.mmagon.jwebswing.plugins.jquery.JQueryPageConfigurator;
 		url = "https://www.akveo.com/products.html")
 public class AngularIonSliderPageConfigurator extends PageConfigurator
 {
-	
+
 	private static final long serialVersionUID = 1L;
-	
+
 	/*
 	 * Constructs a new AngularIonSliderPageConfigurator
 	 */
@@ -42,14 +42,14 @@ public class AngularIonSliderPageConfigurator extends PageConfigurator
 	{
 		//Nothing needed
 	}
-	
+
 	@Override
 	public Page configure(Page page)
 	{
 		if (!page.isConfigured())
 		{
-			JQueryPageConfigurator.setRequired(page.getBody(), true);
-			AngularPageConfigurator.setRequired(page.getBody(), true);
+			JQueryPageConfigurator.setRequired(true);
+			AngularPageConfigurator.setRequired(true);
 			page.getAngular().getAngularDirectives().add(new AngularIonSliderDirective());
 		}
 		return page;
