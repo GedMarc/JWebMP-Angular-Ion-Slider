@@ -9,7 +9,8 @@ import za.co.mmagon.jwebswing.base.angular.directives.AngularDirectiveBase;
  * @author Marc Magon
  * @since 30 May 2017
  */
-class AngularIonSliderDirective extends AngularDirectiveBase
+public class AngularIonSliderDirective
+		extends AngularDirectiveBase
 {
 
 	private static final long serialVersionUID = 1L;
@@ -25,6 +26,7 @@ class AngularIonSliderDirective extends AngularDirectiveBase
 	@Override
 	public String renderFunction()
 	{
-		return FileTemplates.getFileTemplate(AngularIonSliderDirective.class, "ionSlider", "ionSlider").toString();
+		return FileTemplates.getFileTemplate(AngularIonSliderDirective.class, "ionSlider", "ionSlider.min")
+		                    .toString();
 	}
 }
