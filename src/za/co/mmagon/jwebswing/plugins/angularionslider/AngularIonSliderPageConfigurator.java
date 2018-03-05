@@ -25,12 +25,12 @@ import za.co.mmagon.jwebswing.plugins.jquery.JQueryPageConfigurator;
 		pluginIconUrl = "",
 		pluginIconImageUrl = "",
 		pluginOriginalHomepage = "https://www.akveo.com/products.html",
-		pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/AngularIonSlider.jar/download"
-)
+		pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/AngularIonSlider.jar/download")
 @ComponentInformation(name = "Angular Ion Slider",
 		description = "Watches Angular Values for Ion Slider",
 		url = "https://www.akveo.com/products.html")
-public class AngularIonSliderPageConfigurator extends PageConfigurator
+public class AngularIonSliderPageConfigurator
+		extends PageConfigurator
 {
 
 	private static final long serialVersionUID = 1L;
@@ -50,7 +50,6 @@ public class AngularIonSliderPageConfigurator extends PageConfigurator
 		{
 			JQueryPageConfigurator.setRequired(true);
 			AngularPageConfigurator.setRequired(true);
-			page.getAngular().getAngularDirectives().add(new AngularIonSliderDirective());
 		}
 		return page;
 	}
