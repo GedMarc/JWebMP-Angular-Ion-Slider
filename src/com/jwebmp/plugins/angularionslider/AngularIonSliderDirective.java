@@ -1,7 +1,7 @@
-package za.co.mmagon.jwebswing.plugins.angularionslider;
+package com.jwebmp.plugins.angularionslider;
 
-import za.co.mmagon.FileTemplates;
-import za.co.mmagon.jwebswing.base.angular.directives.AngularDirectiveBase;
+import com.jwebmp.FileTemplates;
+import com.jwebmp.base.angular.directives.AngularDirectiveBase;
 
 /**
  * The Angular Auto Focus Directive that is applied
