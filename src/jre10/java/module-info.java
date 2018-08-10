@@ -7,6 +7,7 @@ module com.jwebmp.plugins.angularionslider {
 	exports com.jwebmp.plugins.angularionslider;
 
 	requires com.jwebmp.core;
+	requires java.validation;
 
 	provides IPageConfigurator with AngularIonSliderPageConfigurator;
 	provides IAngularDirective with AngularIonSliderDirective;
