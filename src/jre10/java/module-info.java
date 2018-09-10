@@ -8,6 +8,9 @@ module com.jwebmp.plugins.angularionslider {
 
 	requires com.jwebmp.core;
 	requires java.validation;
+	requires com.jwebmp.plugins.ionrangeslider;
+
+	requires com.google.common;
 
 	provides IPageConfigurator with AngularIonSliderPageConfigurator;
 	provides IAngularDirective with AngularIonSliderDirective;

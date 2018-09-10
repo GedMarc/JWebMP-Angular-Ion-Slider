@@ -17,5 +17,6 @@
     "tests"
   ],
   "dependencies": {
+    "angularionndirective": "https://github.com/kashban/ionRangeSlider-Angular-Directive.git#*"
   }
 }

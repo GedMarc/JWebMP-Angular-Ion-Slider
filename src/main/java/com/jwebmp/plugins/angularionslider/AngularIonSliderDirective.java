@@ -28,7 +28,7 @@ public class AngularIonSliderDirective
 	@Override
 	public String renderFunction()
 	{
-		return FileTemplates.getFileTemplate(AngularIonSliderDirective.class, "ionSlider", "ionSlider.min.js")
+		return FileTemplates.getFileTemplate(AngularIonSliderDirective.class, "angularIonSliderBinder", "ionSlider.min.js")
 		                    .toString();
 	}
 }

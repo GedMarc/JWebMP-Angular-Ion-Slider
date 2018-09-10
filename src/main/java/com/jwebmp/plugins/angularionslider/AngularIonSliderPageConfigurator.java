@@ -38,14 +38,14 @@ import javax.validation.constraints.NotNull;
 		pluginVersion = "1.0.0",
 		pluginCategories = "angular,focus,ui,web ui, framework",
 		pluginSubtitle = "Watches Angular Values for Ion Slider",
-		pluginSourceUrl = "https://www.akveo.com/products.html",
+		pluginSourceUrl = "https://github.com/kashban/ionRangeSlider-Angular-Directive",
 		pluginWikiUrl = "https://github.com/GedMarc/JWebSwing-Angular-Ion-Slider/wiki",
 		pluginGitUrl = "https://github.com/GedMarc/JWebSwing-Angular-Ion-Slider",
 		pluginIconUrl = "",
 		pluginIconImageUrl = "",
 		pluginOriginalHomepage = "https://www.akveo.com/products.html",
 		pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/AngularIonSlider.jar/download")
-@ComponentInformation(name = "Angular Ion Slider",
+@ComponentInformation(name = "Angular Ion Slider Directive",
 		description = "Watches Angular Values for Ion Slider",
 		url = "https://www.akveo.com/products.html")
 public class AngularIonSliderPageConfigurator
@@ -93,11 +93,8 @@ public class AngularIonSliderPageConfigurator
 	@Override
 	public Page configure(Page page)
 	{
-		if (!page.isConfigured())
-		{
-			JQueryPageConfigurator.setRequired(true);
-			AngularPageConfigurator.setRequired(true);
-		}
+		JQueryPageConfigurator.setRequired(true);
+		AngularPageConfigurator.setRequired(true);
 		return page;
 	}
 

@@ -1,4 +1,13 @@
-JW_APP_NAME.directive('ionslider', function ($timeout) {
+/**
+ * Created by Abdullah on 9/19/14.
+ *
+ * Modified and enhanced by Juergen Wahlmann on 3/5/15
+ */
+
+var app = angular.module('ionSlider', ['ngRoute']);
+
+
+app.directive('ionslider', function ($timeout) {
     return {
         restrict: 'EC',
         scope: {
