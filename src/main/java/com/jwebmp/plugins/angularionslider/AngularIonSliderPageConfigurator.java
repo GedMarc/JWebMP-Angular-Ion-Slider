@@ -39,8 +39,8 @@ import javax.validation.constraints.NotNull;
 		pluginCategories = "angular,focus,ui,web ui, framework",
 		pluginSubtitle = "Watches Angular Values for Ion Slider",
 		pluginSourceUrl = "https://github.com/kashban/ionRangeSlider-Angular-Directive",
-		pluginWikiUrl = "https://github.com/GedMarc/JWebSwing-Angular-Ion-Slider/wiki",
-		pluginGitUrl = "https://github.com/GedMarc/JWebSwing-Angular-Ion-Slider",
+		pluginWikiUrl = "https://github.com/GedMarc/JWebMP-Angular-Ion-Slider/wiki",
+		pluginGitUrl = "https://github.com/GedMarc/JWebMP-Angular-Ion-Slider",
 		pluginIconUrl = "",
 		pluginIconImageUrl = "",
 		pluginOriginalHomepage = "https://www.akveo.com/products.html",
@@ -49,7 +49,7 @@ import javax.validation.constraints.NotNull;
 		description = "Watches Angular Values for Ion Slider",
 		url = "https://www.akveo.com/products.html")
 public class AngularIonSliderPageConfigurator
-		implements IPageConfigurator
+		implements IPageConfigurator<AngularIonSliderPageConfigurator>
 {
 	/**
 	 * If this configurator is enabled
