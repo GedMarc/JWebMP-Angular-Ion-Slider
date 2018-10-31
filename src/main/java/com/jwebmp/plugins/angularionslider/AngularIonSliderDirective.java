@@ -15,7 +15,6 @@ public class AngularIonSliderDirective
 		implements IAngularDirective<AngularIonSliderDirective>
 {
 
-	private static final long serialVersionUID = 1L;
 
 	/*
 	 * Constructs a new AngularIonSliderDirective
