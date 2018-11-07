@@ -30,4 +30,15 @@ public class AngularIonSliderDirective
 		return FileTemplates.getFileTemplate(AngularIonSliderDirective.class, "angularIonSliderBinder", "ionSlider.min.js")
 		                    .toString();
 	}
+
+	/**
+	 * If this page configurator is enabled
+	 *
+	 * @return if the configuration must run
+	 */
+	@Override
+	public boolean enabled()
+	{
+		return AngularIonSliderPageConfigurator.isEnabled();
+	}
 }
