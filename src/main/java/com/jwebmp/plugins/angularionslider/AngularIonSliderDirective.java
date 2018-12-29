@@ -2,7 +2,6 @@ package com.jwebmp.plugins.angularionslider;
 
 import com.jwebmp.core.FileTemplates;
 import com.jwebmp.core.base.angular.directives.AngularDirectiveBase;
-import com.jwebmp.core.base.angular.services.IAngularDirective;
 
 /**
  * The Angular Auto Focus Directive that is applied
@@ -11,11 +10,8 @@ import com.jwebmp.core.base.angular.services.IAngularDirective;
  * @since 30 May 2017
  */
 public class AngularIonSliderDirective
-		extends AngularDirectiveBase
-		implements IAngularDirective<AngularIonSliderDirective>
+		extends AngularDirectiveBase<AngularIonSliderDirective>
 {
-
-
 	/*
 	 * Constructs a new AngularIonSliderDirective
 	 */

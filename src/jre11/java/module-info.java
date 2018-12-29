@@ -15,6 +15,7 @@ module com.jwebmp.plugins.angularionslider {
 
 	requires com.google.common;
 	requires com.jwebmp.guicedinjection;
+	requires com.jwebmp.core.angularjs;
 
 	provides IPageConfigurator with AngularIonSliderPageConfigurator;
 	provides IAngularDirective with AngularIonSliderDirective;
