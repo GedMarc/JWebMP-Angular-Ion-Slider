@@ -6,7 +6,7 @@ import com.jwebmp.core.base.angular.directives.AngularDirectiveBase;
 /**
  * The Angular Auto Focus Directive that is applied
  *
- * @author Marc Magon
+ * @author GedMarc
  * @since 30 May 2017
  */
 public class AngularIonSliderDirective
