@@ -4,7 +4,7 @@ import com.google.common.base.Strings;
 import com.jwebmp.core.base.html.DivSimple;
 import com.jwebmp.plugins.ionrangeslider.IonRangeSliderOptions;
 
-import javax.validation.constraints.NotNull;
+import jakarta.validation.constraints.NotNull;
 
 /**
  * An angular data bound ion range slider
