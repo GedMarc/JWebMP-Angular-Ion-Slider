@@ -2,7 +2,7 @@ module com.jwebmp.plugins.angularionslider {
 	exports com.jwebmp.plugins.angularionslider;
 
 	requires com.jwebmp.core;
-	requires java.validation;
+	requires jakarta.validation;
 	requires com.jwebmp.plugins.ionrangeslider;
 
 	requires com.google.common;
