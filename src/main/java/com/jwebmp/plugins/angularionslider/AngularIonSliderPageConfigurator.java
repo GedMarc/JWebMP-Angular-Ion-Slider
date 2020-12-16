@@ -21,6 +21,7 @@ import com.jwebmp.core.Page;
 import com.jwebmp.core.base.angular.AngularPageConfigurator;
 import com.jwebmp.core.plugins.ComponentInformation;
 import com.jwebmp.core.plugins.PluginInformation;
+import com.jwebmp.core.plugins.PluginStatus;
 import com.jwebmp.core.plugins.jquery.JQueryPageConfigurator;
 import com.jwebmp.core.services.IPageConfigurator;
 
@@ -44,7 +45,12 @@ import jakarta.validation.constraints.NotNull;
 		pluginIconUrl = "",
 		pluginIconImageUrl = "",
 		pluginOriginalHomepage = "https://www.akveo.com/products.html",
-		pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/AngularIonSlider.jar/download")
+		pluginDownloadUrl = "https://mvnrepository.com/artifact/com.jwebmp.plugins.angular/jwebmp-angular-ion-slider",
+		pluginGroupId = "com.jwebmp.plugins.angular",
+		pluginArtifactId = "jwebmp-angular-ion-slider",
+		pluginModuleName = "com.jwebmp.plugins.angularionslider",
+		pluginStatus = PluginStatus.Released
+)
 @ComponentInformation(name = "Angular Ion Slider Directive",
 		description = "Watches Angular Values for Ion Slider",
 		url = "https://www.akveo.com/products.html")
