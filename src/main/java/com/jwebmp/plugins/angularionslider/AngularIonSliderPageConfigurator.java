@@ -33,9 +33,9 @@ import jakarta.validation.constraints.NotNull;
  * @author GedMarc
  * @since 16 Jun 2017
  */
-@PluginInformation(pluginName = "Angular Ion Slider",
+@PluginInformation(pluginName = "Ion Slider",
 		pluginDescription = "Watches Angular Values for Ion Slider",
-		pluginUniqueName = "jwebswing-angular-auto-focus",
+		pluginUniqueName = "angular-ion-slider",
 		pluginVersion = "1.0.0",
 		pluginCategories = "angular,focus,ui,web ui, framework",
 		pluginSubtitle = "Watches Angular Values for Ion Slider",
