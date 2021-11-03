@@ -12,7 +12,7 @@
 
     <artifactId>jwebmp-angular-ion-slider</artifactId>
     <packaging>jar</packaging>
-
+    <version>0.0.0_0-SNAPSHOT</version>
     <name>Angular Ion Slider Addon</name>
     <description>The JWebSwing implementation for Angular Ion Slider</description>
     <url>https://github.com/GedMarc/Angular-Ion-Slider</url>
