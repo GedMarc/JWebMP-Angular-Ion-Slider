@@ -99,8 +99,8 @@ public class AngularIonSliderPageConfigurator
 	@Override
 	 public Page<?> configure(Page<?> page)
 	{
-		JQueryPageConfigurator.setRequired(true);
-		AngularPageConfigurator.setRequired(true);
+		
+		
 		return page;
 	}
 

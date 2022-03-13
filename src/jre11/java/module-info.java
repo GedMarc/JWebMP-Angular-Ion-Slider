@@ -9,7 +9,7 @@ module com.jwebmp.plugins.angularionslider {
 
 	requires com.google.common;
 	requires com.guicedee.guicedinjection;
-	requires com.jwebmp.core.angularjs;
+	requires com.jwebmp.core.angular;
 
 	provides com.jwebmp.core.services.IPageConfigurator with com.jwebmp.plugins.angularionslider.AngularIonSliderPageConfigurator;
 	provides com.jwebmp.core.base.angular.services.IAngularDirective with com.jwebmp.plugins.angularionslider.AngularIonSliderDirective;
